@@ -1,0 +1,24 @@
+<app-nav></app-nav>
+<div class="padre">
+<div class="mini" *ngFor="let guardado of secciones">
+    <div id="conte">
+        <h1>{{guardado.nombre}}</h1>
+    </div>
+    <div class="contenedorImagen">
+        <img [src]="guardado.url" alt="cover" width="100%">
+    </div>
+    <div class="lista">
+        <ul>
+            <h1>horario de atencion</h1>
+                        <li class="estrella1">13:30 pm a 15:30 pm</li>
+                        <li class="chulo1"> 15:40 pm a 16:40 pm</li>
+                        <li class="chulo1">16:50 pm a 09:50 pm</li>
+                        <li class="chulo1">10:00 pm a 12:30 pm</li>  
+        </ul>
+    </div>
+    <div class="suscribe1">
+        <button (click)="entrar(guardado.idSeccion)">Catalogo de peliculas</button>
+    </div>
+</div>
+</div>
+<app-footer></app-footer>

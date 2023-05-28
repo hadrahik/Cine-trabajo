@@ -1,0 +1,26 @@
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#aeeff8;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a:hover{
+    color: white;
+}
